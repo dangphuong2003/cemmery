@@ -1,0 +1,27 @@
+.main{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 40vh;
+}
+.title{
+    font-size: 14px;
+    opacity: 0.5;
+    
+}
+.back{
+    text-decoration: none; 
+    color: #000; 
+    cursor: pointer;  
+}
+.back:hover{
+    color: #4bb6fa;
+}
+.home{
+    padding: 20px 0px 50px 0px ;
+}
+.line{
+    border: 2px solid black;
+    width: 10vw;
+    margin: 0 auto;
+}

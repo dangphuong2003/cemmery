@@ -1,0 +1,138 @@
+.payment{
+    font-family:"Helvetica Neue", sans-serif;
+    padding: 10px 80px;    
+}
+.content-payment{
+    display: flex;
+}
+.info-ship{
+    width: 60%;
+}
+.info-order{
+    width: 40%;
+}
+.title-payment{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+.title-ship{
+    font-size: 20px;
+    font-weight: 500;
+}
+.account{
+    font-size: 11px;
+    opacity: 0.4;
+    padding: 5px 0px;
+}
+.login-payment{
+    text-decoration: none;
+    color: #4bb6fa;
+    font-weight: 500;
+}
+.input-info{
+    padding-top: 10px;
+}
+.input-info-ship{
+    width: 97%;
+    padding: 3px;
+    margin-bottom: 15px;    
+}
+.input-info{
+    display: flex;
+    flex-direction: column;
+}
+.title-pay{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 52px 0px 20px 0px;
+}
+.hidden,.show-ship{
+    display:none;
+}
+.product{
+    display: flex;
+}
+.img-product-pay{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.name-properties{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.size{
+    margin: 10px 0px;
+}
+.price-properties{
+    text-align: right;
+    padding-top: 20px;
+}
+.price-ship,.final-price,.properties{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.name-price{
+    margin: 0px;
+}
+.next{
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.back-cart{
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 8px;
+    color: #4bb6fa;
+    font-weight: 500;
+}
+.btn-step-2{
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #4bb6fa;
+    color:white;
+    border-radius: 3px;
+}
+.btn-step-2:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#4bb6fa;
+    border: 1px solid #4bb6fa;
+}
+@media screen and (max-width:1023px ) {
+    .content-payment{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-hidden{
+        display: none;
+    }
+    .info-ship{
+        width: 100%;
+    }    
+    .info-order{
+        width: 100%;
+    }
+    .hidden{
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        color: #4bb6fa;
+    }
+    .hidden:hover{
+        cursor: pointer;        
+    }
+    /* từ khúc này là ý ẹ */
+    .show-ship:checked ~ .content-hidden{
+        display: block;
+    }
+}

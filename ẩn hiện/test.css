@@ -1,0 +1,7 @@
+.checkclick:checked ~ h5 { 
+    color: red;
+
+}
+/* input {
+    display: none;
+} */
